@@ -1,2 +1,2 @@
 FROM httpd
-ADD ./devopsIQ /var/www/html/devopsIQ
+ADD ./devopsIQ /usr/local/apache2/htdocs/
