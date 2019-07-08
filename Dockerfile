@@ -1,2 +1,2 @@
-FROM hshar/webapp
+FROM httpd
 ADD ./devopsIQ /var/www/html/devopsIQ
