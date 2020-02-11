@@ -3,7 +3,7 @@ CI/CD for simple HTML webpage
 
 # Jenkins pipeline Script
 
-```node {
+``node {
     stage('Checkout') 
     {
         checkout([$class: 'GitSCM', 
@@ -27,4 +27,4 @@ CI/CD for simple HTML webpage
         sh 'docker rm -f stacikweb'
         sh 'docker run -itd --name=stacikweb -p 81:80 staticweb:latest'
     }
-}```
+}``
